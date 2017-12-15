@@ -24,15 +24,15 @@ class Solution:
 # Tests
 
 class TestSolution(unittest.TestCase):
-    def test_thirdMax1(self):
+    def test_1(self):
         res = Solution().twoSum([2, 7, 11, 15], 9)
         self.assertEqual(res, [0, 1])
 
-    def test_thirdMax2(self):
+    def test_2(self):
         res = Solution().twoSum([3, 2, 4], 6)
         self.assertEqual(res, [1, 2])
 
-    def test_thirdMax3(self):
+    def test_3(self):
         res = Solution().twoSum([3, 3], 6)
         self.assertEqual(res, [0, 1])
 
