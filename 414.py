@@ -27,15 +27,15 @@ class Solution:
 # Tests
 
 class TestSolution(unittest.TestCase):
-    def test_thirdMax1(self):
+    def test_1(self):
         res = Solution().thirdMax([3, 2, 1])
         self.assertEqual(res, 1)
 
-    def test_thirdMax2(self):
+    def test_2(self):
         res = Solution().thirdMax([1, 2])
         self.assertEqual(res, 2)
 
-    def test_thirdMax3(self):
+    def test_3(self):
         res = Solution().thirdMax([2, 2, 3, 1])
         self.assertEqual(res, 1)
 
