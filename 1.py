@@ -1,4 +1,4 @@
-# Description: https://leetcode.com/problems/third-maximum-number/description/
+# Description: https://leetcode.com/problems/two-sum/description/
 
 # Code
 
