@@ -6,30 +6,6 @@ import unittest
 
 
 class Solution:
-    def strIntersect(str1, str2):
-        print(str1)
-        print(str2)
-        out = ""
-        for i in range(len(str1)):
-            if str1[i] != str2[i]:
-                return out
-            else:
-                out += str1[i]
-        return out
-
-    def longestCommonPrefix(self, strs):
-        """
-        :type strs: List[str]
-        :rtype: str
-        """
-        if not strs:
-            return ""
-        strs.sort(key=len)
-        out = strs[0]
-        for x in strs[1:]:
-            out = Solution.strIntersect(out, x)
-        return out
-
     def longestCommonPrefix(self, strs):
         if not strs:
             return ""
