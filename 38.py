@@ -59,6 +59,5 @@ class TestSolution(unittest.TestCase):
         self.assertEqual(res, "1211")
 
 
-
 if __name__ == '__main__':
     unittest.main()
